@@ -1,0 +1,58 @@
+@import url(normalize.css);
+
+.item{
+	position: relative;
+	padding: 1em 2em 1em 1em;
+	margin: 0 1em 1em 0;
+	float: left;
+}
+
+.close{
+	position: absolute;
+	right: 0.2em;bottom: 0.2em; top: 0.3em;
+}
+
+.margin-top8{
+	margin-top: 8px;
+}
+
+.nav li{
+	margin-right: 5px;
+	border-radius: 4px;
+}
+
+ul.itembox{
+	padding-left: 0;
+}
+
+.panel-body{
+	position: relative;	
+	min-height: 200px;
+	overflow: auto;
+}
+
+.totallist , .todolist, .donelist{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+}
+
+.totallist{
+	z-index: 1;
+}
+
+.container{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.centeralign{
+	text-align: center;
+}
+
+.no-bottom-border{
+	border-bottom: none;
+}
+
+

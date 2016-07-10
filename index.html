@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shopping list</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<link rel="stylesheet" type="text/css" href="css/mains.css">
+</head>
+<body>	
+	<section class="container">
+		
+		<section class="page-header centeralign">
+			<h1>Shopping List<small>&nbsp;- A simple list built using JQuery.</small></h1>
+		</section> 
+
+		<section class="input-section clearfix centeralign">
+			<form id="login">
+				<ul>
+					<li>
+						<input type="text" id="item" name="item" placeholder="Enter Item here" value="" autocomplete="off" required>
+						<label for="item">Shopping Item</label>
+					</li>
+					<li>
+						<input type="submit" id="submit" name="submit" value="ADD">
+					</li>
+				</ul>
+			</form>
+		</section>
+
+		<section class="items-panel">
+			<div class="panel panel-default">
+			    <div class="panel-heading no-bottom-border">
+					<ul class="nav nav-pills ">
+					    <li class="active total"><a href="#">Total<span class="badge">5</span></a></li>
+					    <li class="todo"><a href="#">To-do <span class="badge">3</span></a></li>					    
+					    <li class="done"><a href="#">Done  <span class="badge">2</span></a></li>
+					</ul>
+			    </div>
+
+			    <div class="panel-body">
+			    	<div class="totallist">
+				    	<ul class="itembox">
+				    		<li class="label label-danger item">
+				    			<span class="itemtext">Item-1</span>
+				    			<span class="close"> &times;</span>
+				    		</li>
+				    		<li class="label label-success item">
+				    		    <span class="itemtext">Item-2</span>
+				    			<span class="close"> &times;</span>
+				    		</li>
+				    		<li class="label label-success item">
+				    			<span class="itemtext">Item-3</span>
+				    			<span class="close"> &times;</span>
+				    		</li>
+				    		<li class="label label-success item">
+				    			<span class="itemtext">Item-4</span>
+				    			<span class="close"> &times;</span>
+				    		</li>
+				    		<li class="label label-danger item">
+				    			<span class="itemtext">Item-5</span>
+				    			<span class="close"> &times;</span>
+				    		</li>
+				    	</ul>
+			    	</div>
+			    	<div class="todolist">
+			    		<ul class="itembox"></ul>
+			    	</div>
+			    	<div class="donelist">
+			    		<ul class="itembox"></ul>
+			    	</div>			    	
+			    </div>
+			    <div class="panel-footer clearfix">
+			    	<div class="pull-left margin-top8">
+			    		<p class="text-success"></p>
+			    		<p class="text-danger"></p>
+			    	</div>
+			        <div class="pull-right">
+			            <a href="#" class="btn btn-primary">Clear</a>
+			        </div>
+			    </div>
+			</div>
+		</section>
+	</section>
+	
+	
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/modernizr-2.0.6-min.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
